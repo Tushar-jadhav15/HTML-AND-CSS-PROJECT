@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+          font-family: Arial, sans-serif;
+          background:linear-gradient(to right, #6a11cb, #2575fc);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+        .box{
+            color: blueviolet;
+            border: 3px solid pink;
+            border-radius: 10px;
+            /* box-shadow: 5px 5px 15px #fafafa; */
+            padding: 50px;
+            width: 250px;
+            text-align: center;
+            background: #e7e2e2;
+        }
+        .box h2{
+            color: black;
+           margin-bottom: 20px;
+        }
+        .box input{
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e7e2e2;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .box button{
+            width: 100%;
+            padding: 12px;
+            background-color: #2575fc;
+            color: rgb(240, 238, 238);
+            border: none;
+            border-radius: 5px;
+
+        }
+        .box button:hover{
+            background: #a61efb;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>LOGIN PAGE</h2>
+        <form >
+            <!-- <label>Username :</label> -->
+            <input type="text" name="Username" placeholder="Enter Your Username" required><br>
+            <br>
+           
+            <!-- <label>Password :</label> -->
+            <input type="password" name="password" placeholder="Enter password" required><br>
+            <br>
+            <button type="submit">LOGIN</button>
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
