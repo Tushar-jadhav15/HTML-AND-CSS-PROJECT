@@ -1,0 +1,181 @@
+body{
+    margin: 0 178px;
+}
+
+.container{
+    height: auto;
+    width: 90wh;
+    margin: 5px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    
+   
+}
+
+.boX{
+    width: 200px;
+    height: 135px;
+    margin: 25px 40px;
+    font-family: sans-serif;
+    cursor: pointer;
+    background: rgba(166, 174, 177, 0.5);
+    color: #fff;
+   line-height: 135px;
+   text-align: center;
+    
+}
+
+
+.boX .color{
+    background-color: rgba(222, 114, 249, 0.5);
+}
+
+.translatex {
+  transform: translateX(1);
+  transition: transform 0.5s ease;
+}
+.boX:hover .translatex {
+  transform: translateX(3em);
+}
+
+.translatey {
+  transform: translateY(1);
+  transition: transform 0.5s ease;
+}
+.boX:hover .translatey {
+  transform: translateY(3em);
+}
+
+.translate {
+  transform: translate(1, 1);
+  transition: transform 0.5s ease;
+}
+.boX:hover .translate {
+  transform: translate(2em, 2em);
+}
+
+
+
+ .translatez {
+  transform: translateZ(1px);
+  transition: transform 0.7s ease;
+}
+
+.boX:hover .translatez{
+  transform: rotate3d(3, 2, 2, 90deg) translateZ(50px); 
+}
+
+.translate3d {
+  transform: translate3d(10px, 1px, 1);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .translate3d {
+  transform: translate3d(1px, 1px, 50px) rotate3d(3, 2, 2, 90deg);
+
+}
+.rotate {
+  transform: rotate(0);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .rotate {
+  transform: rotate(270deg);
+}
+
+.rotateX {
+  transform: perspective(1) scaleZ(1) rotateX(0deg);
+  transition: transform 0.5s ease-in;
+}
+
+.boX:hover .rotatex {
+  transform: perspective(500px) scaleZ(2) rotateX(45deg);
+
+}
+
+.rotateY {
+  transform: perspective(1) scaleZ(1) rotateY(0deg);
+  transition: transform 0.5s ease-in;
+}
+
+.boX:hover .rotatey {
+  transform: perspective(500px) scaleZ(2) rotateY(45deg);
+
+}
+
+.scale {
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+
+.boX:hover .scale {
+  transform: scale(1.5, 1.5);
+}
+
+.scalex {
+  transform: scaleX(1);
+  transition: transform 0.5s ease;
+}
+
+
+.boX:hover .scalex {
+  transform: scaleX(2);
+}
+
+.scaley {
+  transform: scaleY(1);
+  transition: transform 0.5s ease;
+}
+.skew {
+  transform: skew(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.boXgit:hover .skew {
+  transform: skew(30deg, 20deg);
+}
+
+.skewx {
+  transform: skewX(1);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .skewx {
+  transform: skewX(30deg);
+
+}
+
+.boX:hover .scaley {
+  transform: scaley(2);
+}
+
+.skewy{
+  transform: skewY(1);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .skewy {
+  transform: skewY(30deg);
+
+}
+
+.matrix {
+  transform: matrix(1, 1, 1, 1);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .matrix {
+  transform: matrix(1, -1, 0, 1, 0, 0);
+}
+
+.matrix3d {
+  transform: matrix3d(1);
+  transition: transform 0.5s ease;
+}
+
+.boX:hover .matrix3d {
+  transform: matrix3d(0.8535533905932737, 0.4999999999999999, 0.14644660940672619, 0, -0.4999999999999999, 0.7071067811865476, 0.4999999999999999, 0, 0.14644660940672619, -0.4999999999999999, 0.8535533905932737, 0, 22.62994231491119, -20.3223304703363, 101.3700576850888, 1)
+}
